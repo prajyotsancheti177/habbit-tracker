@@ -1,0 +1,180 @@
+.glass-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-normal) cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.1) 20%,
+            rgba(255, 255, 255, 0.15) 50%,
+            rgba(255, 255, 255, 0.1) 80%,
+            transparent);
+    pointer-events: none;
+}
+
+/* Padding Variants */
+.glass-card--padding-none {
+    padding: 0;
+}
+
+.glass-card--padding-sm {
+    padding: var(--space-sm);
+}
+
+.glass-card--padding-md {
+    padding: var(--space-md);
+}
+
+.glass-card--padding-lg {
+    padding: var(--space-lg);
+}
+
+.glass-card--padding-xl {
+    padding: var(--space-xl);
+}
+
+/* Style Variants */
+.glass-card--default {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+}
+
+.glass-card--solid {
+    background: linear-gradient(135deg, rgba(19, 19, 26, 0.95) 0%, rgba(26, 26, 36, 0.98) 100%);
+}
+
+.glass-card--gradient {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+}
+
+/* Hover Effect */
+.glass-card--hover:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.03) 100%);
+    border-color: var(--glass-border-hover);
+    transform: translateY(-4px);
+    box-shadow:
+        0 12px 40px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* Clickable */
+.glass-card--clickable {
+    cursor: pointer;
+}
+
+.glass-card--clickable:active {
+    transform: translateY(-1px) scale(0.99);
+}
+
+/* Glow Effects */
+.glass-card--glow {
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card--glow::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, var(--glow-color) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+    pointer-events: none;
+}
+
+.glass-card--glow:hover::after {
+    opacity: 0.12;
+}
+
+.glass-card--glow-blue {
+    --glow-color: var(--color-accent-blue);
+}
+
+.glass-card--glow-purple {
+    --glow-color: var(--color-accent-purple);
+}
+
+.glass-card--glow-green {
+    --glow-color: var(--color-accent-green);
+}
+
+.glass-card--glow-orange {
+    --glow-color: var(--color-accent-orange);
+}
+
+/* Shimmer effect on hover */
+.glass-card--shimmer {
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card--shimmer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.1),
+            transparent);
+    transition: left 0.6s ease;
+    pointer-events: none;
+}
+
+.glass-card--shimmer:hover::after {
+    left: 150%;
+}
+
+/* Card Header */
+.glass-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-md);
+}
+
+.glass-card-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    background: linear-gradient(135deg, #fff 0%, rgba(255, 255, 255, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.glass-card-subtitle {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+/* Card Body */
+.glass-card-body {
+    flex: 1;
+}
+
+/* Card Footer */
+.glass-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--space-md);
+    padding-top: var(--space-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal Habit & Task Tracker with modern UI, analytics, and rewards" />
+  <title>Habit Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Load debug mock time from localStorage BEFORE React mounts -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('debugMockTime');
+        if (saved) {
+          var parsed = JSON.parse(saved);
+          if (parsed.enabled && parsed.date) {
+            var time = parsed.time || '12:00';
+            window.__DEBUG_MOCK_TIME__ = new Date(parsed.date + 'T' + time + ':00').toISOString();
+            console.log('🕐 Debug time loaded:', window.__DEBUG_MOCK_TIME__);
+          }
+        }
+      } catch (e) {
+        console.error('Failed to load debug time:', e);
+      }
+    })();
+  </script>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

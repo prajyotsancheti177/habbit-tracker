@@ -1,0 +1,329 @@
+.balance-card {
+    margin-bottom: var(--space-xl);
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(236, 72, 153, 0.1) 100%);
+    border-color: rgba(245, 158, 11, 0.3);
+}
+
+.balance-card__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance-card__main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.balance-card__label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.balance-card__amount {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.balance-card__icon {
+    font-size: 4rem;
+}
+
+.balance-card__value {
+    font-size: 4rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.balance-card__stats {
+    text-align: right;
+}
+
+.balance-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance-stat__value {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    color: var(--color-text-primary);
+}
+
+.balance-stat__label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-tertiary);
+}
+
+/* Rewards Info Grid */
+.rewards-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+    margin-bottom: var(--space-xl);
+}
+
+.info-card {
+    text-align: center;
+}
+
+.info-card__icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: var(--space-md);
+}
+
+.info-card h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--space-sm);
+}
+
+.info-card p {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+/* History Card */
+.history-card {
+    padding: var(--space-xl);
+}
+
+.history-title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.history-item:hover {
+    background: var(--glass-bg-hover);
+}
+
+.history-item__icon {
+    font-size: 1.5rem;
+}
+
+.history-item__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.history-item__title {
+    font-weight: 500;
+}
+
+.history-item__type {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-tertiary);
+}
+
+.history-item__meta {
+    text-align: right;
+}
+
+.history-item__coins {
+    display: block;
+    font-weight: 600;
+    color: #fbbf24;
+}
+
+.history-item__date {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+    padding-top: var(--space-lg);
+    border-top: 1px solid var(--glass-border);
+}
+
+.pagination__info {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+/* Marketplace Section */
+.marketplace-section {
+    margin-bottom: var(--space-xl);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.section-header h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+}
+
+.rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: var(--space-lg);
+}
+
+.reward-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: transform 0.2s ease;
+}
+
+.reward-card:hover {
+    transform: translateY(-4px);
+}
+
+.reward-card__icon {
+    font-size: 3rem;
+    margin-bottom: var(--space-sm);
+    text-align: center;
+    padding: var(--space-md);
+    background: var(--glass-bg);
+    border-radius: var(--radius-md);
+}
+
+.reward-card__content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.reward-card__title {
+    font-weight: 600;
+    font-size: var(--font-size-lg);
+}
+
+.reward-card__desc {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    flex: 1;
+    margin-bottom: var(--space-md);
+}
+
+.reward-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--glass-border);
+}
+
+.reward-card__cost {
+    font-weight: 700;
+    color: #fbbf24;
+    font-size: var(--font-size-lg);
+}
+
+.reward-card__delete {
+    position: absolute;
+    top: var(--space-sm);
+    right: var(--space-sm);
+    background: transparent;
+    border: none;
+    color: var(--color-text-tertiary);
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 4px;
+    border-radius: var(--radius-sm);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.reward-card:hover .reward-card__delete {
+    opacity: 1;
+}
+
+.reward-card__delete:hover {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+.empty-state-card {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl);
+    background: var(--glass-bg);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--glass-border);
+    color: var(--color-text-tertiary);
+    gap: var(--space-sm);
+}
+
+.empty-state-card span {
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+/* History Updates */
+.history-item--redemption {
+    border-color: rgba(239, 68, 68, 0.2);
+    background: rgba(239, 68, 68, 0.05);
+}
+
+.text-green {
+    color: #10b981;
+}
+
+.text-red {
+    color: #ef4444;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .balance-card__content {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--space-lg);
+    }
+
+    .balance-card__stats {
+        text-align: center;
+    }
+
+    .balance-card__icon,
+    .balance-card__value {
+        font-size: 3rem;
+    }
+
+    .rewards-grid {
+        grid-template-columns: 1fr;
+    }
+}

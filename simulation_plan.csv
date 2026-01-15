@@ -1,0 +1,92 @@
+Date,Day,Activity Name,Activity Type,Frequency,Tracking Type,Target,Difficulty,Action Today,Value/Completions Today,Status After Action,Expected Status Next Day,Should Reset Tomorrow,Notes
+2025-11-20,Thu,Daily Steps,Habit,Daily,Value,10000 steps,Medium,Log Value,8500,In Progress,To Do,Yes - Daily,First day tracking starts
+2025-11-20,Thu,Morning Exercise,Habit,Daily,Count,1,Easy,Complete,1,Done,To Do,Yes - Daily,Completed fully
+2025-11-20,Thu,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,Partial Complete,5,In Progress,To Do,Yes - Daily,Partially done - should still reset
+2025-11-20,Thu,Weekly Gym Session,Habit,Weekly,Count,3,Hard,Complete Once,1,In Progress,In Progress,No - Weekly,Week starts - 1/3 done
+2025-11-20,Thu,Call Family Weekly,Habit,Weekly,Count,1,Easy,No Action,0,To Do,To Do,No - Weekly,Not started yet
+2025-11-20,Thu,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,0,To Do,To Do,No - Monthly,Monthly habit - resets on 1st of each month
+2025-11-20,Thu,Weekly Running,Habit,Weekly,Value,20 km,Hard,Log Value,5,In Progress,In Progress,No - Weekly,5km of 20km target
+2025-11-20,Thu,Meditation Challenge,Habit,Daily,Count,1,Easy,Complete,1,Done,To Do,Yes - Daily,NEW: 21-day meditation challenge
+2025-11-20,Thu,Finish Report,Task,One-Time,-,-,Medium,No Action,0,To Do,To Do,No,Task - no auto reset
+2025-11-21,Fri,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday's 8500 logged as PARTIAL (85%)
+2025-11-21,Fri,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday's 100% logged as COMPLETE
+2025-11-21,Fri,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday's 5/8 logged as PARTIAL (62%)
+2025-11-21,Fri,Weekly Gym Session,Habit,Weekly,Count,3,Hard,Complete Once,2,In Progress,In Progress,No - Weekly,Now 2/3 done
+2025-11-21,Fri,Call Family Weekly,Habit,Weekly,Count,1,Easy,No Action,0,To Do,To Do,No - Weekly,Still not done
+2025-11-21,Fri,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,0,To Do,To Do,No - Monthly,Still same month (Nov)
+2025-11-21,Fri,Weekly Running,Habit,Weekly,Value,20 km,Hard,Log Value,8,In Progress,In Progress,No - Weekly,Now 8km total
+2025-11-21,Fri,Meditation Challenge,Habit,Daily,Count,1,Easy,SYSTEM RESET + Complete,1,Done,To Do,Yes - Daily,Day 2 complete
+2025-11-21,Fri,Finish Report,Task,One-Time,-,-,Medium,Started Work,0,In Progress,In Progress,No,Manual status change
+2025-11-22,Sat,Daily Steps,Habit,Daily,Value,10000 steps,Medium,No Action,0,To Do,To Do,Yes - Daily,Missed - will log as MISSED (0%)
+2025-11-22,Sat,Morning Exercise,Habit,Daily,Count,1,Easy,Complete,1,Done,To Do,Yes - Daily,Completed fully
+2025-11-22,Sat,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,Complete All,8,Done,To Do,Yes - Daily,Full completion
+2025-11-22,Sat,Weekly Gym Session,Habit,Weekly,Count,3,Hard,Complete Once,3,Done,To Do,No - Weekly,Completed 3/3 this week
+2025-11-22,Sat,Call Family Weekly,Habit,Weekly,Count,1,Easy,Complete,1,Done,To Do,No - Weekly,Completed 1/1
+2025-11-22,Sat,Monthly Budget Review,Habit,Monthly,Count,1,Medium,Complete,1,Done,Done,No - Monthly,Completed for November!
+2025-11-22,Sat,Weekly Running,Habit,Weekly,Value,20 km,Hard,Log Value,7,In Progress,In Progress,No - Weekly,Now 15km total
+2025-11-22,Sat,Meditation Challenge,Habit,Daily,Count,1,Easy,SYSTEM RESET + Complete,1,Done,To Do,Yes - Daily,Day 3 complete
+2025-11-22,Sat,Finish Report,Task,One-Time,-,-,Medium,No Action,0,In Progress,In Progress,No,Still in progress
+2025-11-23,Sun,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET then Log,6000,In Progress,To Do,Yes - Daily,Yesterday MISSED logged; today partial
+2025-11-23,Sun,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday logged as COMPLETE
+2025-11-23,Sun,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday logged as COMPLETE
+2025-11-23,Sun,Weekly Gym Session,Habit,Weekly,Count,3,Hard,No Action,3,Done,To Do,No - Weekly,Still showing last week's done
+2025-11-23,Sun,Call Family Weekly,Habit,Weekly,Count,1,Easy,No Action,1,Done,To Do,No - Weekly,Still showing last week's done
+2025-11-23,Sun,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,1,Done,Done,No - Monthly,Still Nov - stays Done
+2025-11-23,Sun,Weekly Running,Habit,Weekly,Value,20 km,Hard,Log Value,5,Done,To Do,No - Weekly,Now 20km - COMPLETE!
+2025-11-23,Sun,Meditation Challenge,Habit,Daily,Count,1,Easy,USER ARCHIVES HABIT,-,Archived,-,No - Archived,"USER ARCHIVES: Don't want to continue challenge. Habit paused."
+2025-11-23,Sun,Finish Report,Task,One-Time,-,-,Medium,Complete,100%,Done,Done,No,Task completed manually
+2025-11-24,Mon,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET,0,To Do,To Do,Yes - Daily,NEW WEEK - yesterday's partial logged
+2025-11-24,Mon,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday was MISSED
+2025-11-24,Mon,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET,0,To Do,To Do,Yes - Daily,Yesterday was MISSED
+2025-11-24,Mon,Weekly Gym Session,Habit,Weekly,Count,3,Hard,WEEKLY RESET,0,To Do,To Do,No - Weekly,NEW WEEK! Last week logged as COMPLETE
+2025-11-24,Mon,Call Family Weekly,Habit,Weekly,Count,1,Easy,WEEKLY RESET,0,To Do,To Do,No - Weekly,NEW WEEK! Last week logged as COMPLETE
+2025-11-24,Mon,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,1,Done,Done,No - Monthly,Still Nov - stays Done until Dec 1
+2025-11-24,Mon,Weekly Running,Habit,Weekly,Value,20 km,Hard,WEEKLY RESET,0,To Do,To Do,No - Weekly,NEW WEEK! Last week logged as COMPLETE
+2025-11-24,Mon,Meditation Challenge,Habit,Daily,Count,1,Easy,HIDDEN - Archived,-,Archived,-,No - Archived,"ARCHIVED: Not visible in daily tracking. NO 'missed' entries created!"
+2025-11-24,Mon,Finish Report,Task,One-Time,-,-,Medium,Already Done,100%,Done,Done,No,Task stays done forever
+--- GAP: User doesn't open app Nov 25-27 ---,,,,,,,,,,,,
+2025-11-28,Fri,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET x4,0,To Do,To Do,Yes - Daily,"Nov 24,25,26,27 ALL logged as MISSED"
+2025-11-28,Fri,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET x4,0,To Do,To Do,Yes - Daily,"4 days logged as MISSED"
+2025-11-28,Fri,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET x4,0,To Do,To Do,Yes - Daily,"4 days logged as MISSED"
+2025-11-28,Fri,Weekly Gym Session,Habit,Weekly,Count,3,Hard,No Action,0,To Do,To Do,No - Weekly,Same week - still at 0
+2025-11-28,Fri,Call Family Weekly,Habit,Weekly,Count,1,Easy,Complete,1,Done,To Do,No - Weekly,Completed this week
+2025-11-28,Fri,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,1,Done,Done,No - Monthly,Still Nov - stays Done
+2025-11-28,Fri,Weekly Running,Habit,Weekly,Value,20 km,Hard,Log Value,10,In Progress,In Progress,No - Weekly,Half done
+2025-11-28,Fri,Meditation Challenge,Habit,Daily,Count,1,Easy,STILL ARCHIVED,-,Archived,-,No - Archived,"ARCHIVED: Still hidden. Nov 23-28 has NO missed entries for this habit!"
+2025-11-28,Fri,Finish Report,Task,One-Time,-,-,Medium,Already Done,100%,Done,Done,No,Still done
+2025-12-01,Mon,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"Nov 28,29,30 logged as MISSED"
+2025-12-01,Mon,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"3 days logged as MISSED"
+2025-12-01,Mon,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"3 days logged as MISSED"
+2025-12-01,Mon,Weekly Gym Session,Habit,Weekly,Count,3,Hard,WEEKLY RESET,0,To Do,To Do,No - Weekly,"NEW WEEK! Last week logged as MISSED (0/3)"
+2025-12-01,Mon,Call Family Weekly,Habit,Weekly,Count,1,Easy,WEEKLY RESET,0,To Do,To Do,No - Weekly,"NEW WEEK! Last week logged as COMPLETE"
+2025-12-01,Mon,Monthly Budget Review,Habit,Monthly,Count,1,Medium,MONTHLY RESET,0,To Do,To Do,Yes - Monthly,"NEW MONTH! Nov logged as COMPLETE; Dec starts fresh"
+2025-12-01,Mon,Weekly Running,Habit,Weekly,Value,20 km,Hard,WEEKLY RESET,0,To Do,To Do,No - Weekly,"NEW WEEK! Last week logged as PARTIAL (50%)"
+2025-12-01,Mon,Meditation Challenge,Habit,Daily,Count,1,Easy,USER UNARCHIVES,0,To Do,To Do,Yes - Daily,"USER UNARCHIVES: Wants to restart! Period resets to TODAY (no missed entries)"
+2025-12-01,Mon,New Task: Plan Party,Task,One-Time,-,-,Easy,Created,0,To Do,To Do,No,New task added
+2025-12-05,Fri,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET x4 + Log,12000,Done,To Do,Yes - Daily,"Dec 1,2,3,4 logged as MISSED; Today exceeded target!"
+2025-12-05,Fri,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET x4 + Complete,1,Done,To Do,Yes - Daily,"4 days missed; today complete"
+2025-12-05,Fri,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET x4 + Partial,3,In Progress,To Do,Yes - Daily,"4 days missed; today 3/8"
+2025-12-05,Fri,Weekly Gym Session,Habit,Weekly,Count,3,Hard,Complete x2,2,In Progress,In Progress,No - Weekly,2/3 sessions done
+2025-12-05,Fri,Call Family Weekly,Habit,Weekly,Count,1,Easy,No Action,0,To Do,To Do,No - Weekly,Not yet called
+2025-12-05,Fri,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,0,To Do,To Do,No - Monthly,Still Dec - not yet done
+2025-12-05,Fri,Weekly Running,Habit,Weekly,Value,20 km,Hard,Log Value,18,In Progress,In Progress,No - Weekly,18km - almost there
+2025-12-05,Fri,Meditation Challenge,Habit,Daily,Count,1,Easy,SYSTEM RESET x4 + Complete,1,Done,To Do,Yes - Daily,"Dec 1,2,3,4 logged as MISSED (since unarchived); Today complete"
+2025-12-05,Fri,Plan Party,Task,One-Time,-,-,Easy,Complete,100%,Done,Done,No,Task completed
+2025-12-08,Mon,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"Dec 5,6,7 - Dec 5 COMPLETE; Dec 6,7 MISSED"
+2025-12-08,Mon,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"Dec 5 COMPLETE; Dec 6,7 MISSED"
+2025-12-08,Mon,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"Dec 5 PARTIAL; Dec 6,7 MISSED"
+2025-12-08,Mon,Weekly Gym Session,Habit,Weekly,Count,3,Hard,WEEKLY RESET,0,To Do,To Do,No - Weekly,"NEW WEEK! Last week PARTIAL (2/3)"
+2025-12-08,Mon,Call Family Weekly,Habit,Weekly,Count,1,Easy,WEEKLY RESET,0,To Do,To Do,No - Weekly,"NEW WEEK! Last week MISSED (0/1)"
+2025-12-08,Mon,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,0,To Do,To Do,No - Monthly,Still Dec - same month
+2025-12-08,Mon,Weekly Running,Habit,Weekly,Value,20 km,Hard,WEEKLY RESET,0,To Do,To Do,No - Weekly,"NEW WEEK! Last week PARTIAL (90%)"
+2025-12-08,Mon,Meditation Challenge,Habit,Daily,Count,1,Easy,SYSTEM RESET x3,0,To Do,To Do,Yes - Daily,"Dec 5 COMPLETE; Dec 6,7 MISSED"
+2025-12-08,Mon,Plan Party,Task,One-Time,-,-,Easy,Already Done,100%,Done,Done,No,Stays done
+2025-12-15,Mon,Daily Steps,Habit,Daily,Value,10000 steps,Medium,SYSTEM RESET x7,0,To Do,-,-,"Dec 8-14 all MISSED (7 entries in history)"
+2025-12-15,Mon,Morning Exercise,Habit,Daily,Count,1,Easy,SYSTEM RESET x7,0,To Do,-,-,"Dec 8-14 all MISSED (7 entries in history)"
+2025-12-15,Mon,Drink 8 Glasses Water,Habit,Daily,Count,8,Easy,SYSTEM RESET x7,0,To Do,-,-,"Dec 8-14 all MISSED (7 entries in history)"
+2025-12-15,Mon,Weekly Gym Session,Habit,Weekly,Count,3,Hard,WEEKLY RESET,0,To Do,-,-,"NEW WEEK! Dec 8-14 week was MISSED (0/3)"
+2025-12-15,Mon,Call Family Weekly,Habit,Weekly,Count,1,Easy,WEEKLY RESET,0,To Do,-,-,"NEW WEEK! Dec 8-14 week was MISSED (0/1)"
+2025-12-15,Mon,Monthly Budget Review,Habit,Monthly,Count,1,Medium,No Action,0,To Do,-,-,Still Dec - can still complete this month
+2025-12-15,Mon,Weekly Running,Habit,Weekly,Value,20 km,Hard,WEEKLY RESET,0,To Do,-,-,"NEW WEEK! Dec 8-14 week was MISSED (0%)"
+2025-12-15,Mon,Meditation Challenge,Habit,Daily,Count,1,Easy,SYSTEM RESET x7,0,To Do,-,-,"Dec 8-14 all MISSED (7 entries in history)"
+2025-12-15,Mon,Plan Party,Task,One-Time,-,-,Easy,Already Done,100%,Done,-,-,Tasks stay done forever
